@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(242, 214, 249);
+    overfloat: scroll;
+    width:auto;
+    height: 100vh;
+    margin:1px;
+}
+h1{
+    font-size: 40px;
+    color:rgb(110, 19, 196);
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    color: rgb(64, 7, 118);
+    text-align: center;
+}
+div.header{ 
+    background-color: rgb(255, 255, 255);
+    margin:5px;
+    padding: 10px;
+}
+ul{
+    display:flex;
+    color:white;
+    background-color: rgb(100, 22, 110);
+    margin: 05px;
+    text-align: center;
+    justify-content: space-between;
+}
+ul li{
+    display:flex;
+    padding: 14px 16px;
+    font-size: 18px;
+    margin: 5px;
+}
+a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(235, 54, 54)
+}
+section.form-section{
+    background-color: white;
+    padding: 20px;
+    width: 900px;
+    height: 250px;
+}
+main{
+    display:flex;
+    justify-content: space-between;
+    padding: 3px;
+    gap: 10px;
+    padding-top: 20px;
+}
+ a1{
+    flex: 1;
+    background-color: white;
+    padding:20px;
+    border: 1px solid rgb(250, 247, 247);
+    width: 300px;
+    height: 250px;
+    margin:0px;
+ }
+.image-placeholder{
+    max-width: 1000px;
+    height: 50px;
+    background-color: rgb(170, 131, 206);
+    color:rgb(88, 6, 163);
+    text-align: center;
+    font-size: 18px;
+    padding: 50px;
+}
+    
