@@ -1,0 +1,170 @@
+.header{
+    background-image: url(../../picture.html/background.jpg);
+    background-position: center;
+    width:fit-content;
+    height: 800px;
+}
+.container-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:  80px;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+}
+ul li {
+   display:flex;
+   color: white;
+   padding: 45px;
+   font-size: 20px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    justify-content: right;
+}
+.logo{
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    height:120px;
+}
+button{
+    background-color: aqua;
+    color: white;
+    border:0;
+    border-width: 25px;
+    border-radius: 15px;
+    padding: 15px;
+}
+button:hover {
+    background-color: white;
+    color: aqua;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(219, 217, 214);
+    border: 1px ;
+    padding: 20px;
+    height: 300px;
+}
+.container-3{
+   display: flex;
+   ;
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/refs/heads/main/image/09.jpg);
+    gap: 20px;
+    padding: 20px;
+    margin: 100px;
+
+}
+.item-1{
+}
+.img{
+    max-width: 250px;
+}
+/* MENU */
+.container-4{
+    background-color: rgb(225, 222, 217);
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item-2{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+.img-1{
+    clip-path: circle(50% at 50% 50%);
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+/* <THỜI GIAN HOẠT ĐỘNG CỦA QUÁN>  */
+.container-5{
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/refs/heads/main/image/09.jpg);
+    text-align: center;
+}
+ /* OUR GALLERY  */
+.container-6{
+    padding: 10px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.item-3{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+.item-3 img{
+    width: 150px;
+    height:150px;
+    border-radius: 5px;
+}
+/* BLOG */
+.container-7{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/refs/heads/main/image/10.jpg);
+}
+.box-1{
+    border: 2px solid rgb(121, 104, 104);
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+.container-8{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin: 20px;
+    column-gap: 50px;
+}
+.item-4{
+    clip-path: circle(50% at 50% 50%);
+}
+.box-2{
+    border: 5px solid white;
+    background-color: rgb(225, 222, 217);
+    border-radius: 10px;
+    padding: 20px;
+    margin:20px;
+}
+/* Meet our chefs  */
+.container-9{
+    background-image: url(https://raw.githubusercontent.com/huyhaq/html_css_case_study_lab_1_2/refs/heads/main/image/09.jpg);
+    text-align: center;
+}
+.box-3{
+    padding: 20px;
+    margin: 20px;
+}
+/* CONTACT */
+.container-10{
+    background-color: black;
+    text-align: center;
+    gap: 50px;
+}
+/* FOOTER */
+.footer{
+    background-image: url(https://github.com/huyhaq/html_css_case_study_lab_1_2/blob/main/image/10.jpg?raw=true);
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+.banner-2{
+    display: flex;
+    background-color: black;
+
+}
